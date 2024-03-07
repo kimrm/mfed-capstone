@@ -210,6 +210,10 @@ nav ul {
     height: 250px;
     object-position: center;
     object-fit: cover;
+    border-radius: 15px;
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
   }
 }
 
